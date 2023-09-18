@@ -1,0 +1,29 @@
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.heading
+{
+    text-align: center;
+    background-color: #333;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    padding: 25px 0;
+    font-family: 'Pathway Extreme', sans-serif;
+
+}
+.personal-heading,.professional-heading
+{
+    text-align: center;
+    margin: 40px 0 40px;
+  
+    
+}
+.block-btn{
+    width:100%;
+}
+.link-button:hover,.lang-button:hover,.skill-button:hover
+{
+    color:blue;
+}

@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin:0;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 50px;
+    
+    
+}
+body{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.content
+{
+margin:10px 50px;
+padding:  0 30px;
+background-color: white;
+
+}
+div.mine,div.mine1,div.mine2,div.mine3,div.mine4,div.mine5
+{
+    box-shadow:0 4px 8px 0 rgb(0,0,0,0.5),0 6px 20px 0 rgb(0,0,0,0.2);
+    width:280px;
+    height:500px;
+    line-height: 25px;
+    text-align: center;
+    margin:50px 0;
+    
+}
+.template-img
+{
+    height:400px;
+    margin-bottom:30px;
+}
+div img
+{
+    width: 100%;
+
+}
+.lin,.lin1,.lin2,.lin3,.lin4,.lin5
+{
+    border:1px solid;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    font-size: larger;
+    
+    justify-content: center;
+    
+}
+
+.main,.main2
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1400px)
+{
+    .main,.main2
+    {
+        display: block;
+    }
+}
+.lin2{
+    position:relative;
+    top:0px;
+
+}
+
+
+@media screen and (max-width:1400px)
+{
+    body {
+text-align: center;
+
+    }
+    .main,.main2
+    {
+        
+        text-align: center;
+        margin:auto;
+    }
+
+    div.mine2,div.mine,div.mine1,div.mine3,div.mine4,div.mine5{
+        text-align: center;
+        
+        margin:60px auto;
+        width:100%;
+    }
+    #me2,#me1,#me,#me3,#me4,#me5
+    {
+        width:100%;
+        margin: auto;
+        word-break: break-all;
+        white-space: normal;
+        
+
+    }
+    div.content{
+        margin:0
+    }
+}
+@media screen and (max-width:380px)
+{
+    #me2,#me1,#me,#me3,#me4,#me5
+    {
+        padding:15px 10px;
+        
+    }
+}
+footer {
+    background-color: #333;
+    color:#ffffff84;
+     padding:50px 0;
+      margin:0;  
+  }
+  .footer-text
+  {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    
+  }
